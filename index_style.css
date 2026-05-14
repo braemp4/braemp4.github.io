@@ -1,0 +1,256 @@
+html {
+  margin: 0px;
+  width: 100vw;
+}
+body {
+  margin: 0px;
+  min-height: 100vh;
+  margin: 0 auto;
+  font-family: Montserrat;
+  background-color: #F2F0EF;
+  color: #282828;
+}
+
+.main-head {
+  grid-area: header;
+}
+.main-head .bg-img .title {
+  font-weight: bold; 
+  font-size: 35px;
+}
+
+.content {
+  margin: 10px;
+  grid-area: content;
+}
+
+
+.main-nav {
+  grid-area: nav;
+}
+
+.main-footer {
+  grid-area: footer;
+
+}
+
+.wrapper {
+  display: grid; 
+  gap: 0px;
+  grid-template-areas:
+    "header"
+    "nav"
+    "content"
+    "footer"
+}
+nav {
+  display: flex; 
+  gap: 15px;  
+  justify-content: right;
+
+  background-image: url("white-gradient.jpg");
+  opacity: 0.8;
+  min-height: 20px;
+
+  background-position: 0% 32%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+/* Can match darker purple for smaller screens*/
+
+nav a {
+  
+  color: #282828;
+  margin: 20px;
+  font-size: 30px;
+
+}
+
+.content #tagline {
+  display: flex; 
+  justify-content: center;
+  margin: 100px;
+  font-size: 50px;
+}
+
+.wrapper {
+    "nav"
+    "header" 
+    "content"
+    "footer";
+}
+
+
+
+
+content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 200px;
+
+}
+
+
+.content #intro-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+
+}
+
+.content #intro-box #tagline {
+
+  display: flex; 
+  gap: 10px;
+  flex-direction: column;
+
+}
+
+
+.content #intro-box #tagline H2 {
+
+  text-shadow: 2px 2px 1px grey;
+}
+
+.content #intro-box #tagline  p{
+  font-size: 40px;
+  max-width: 500px;
+}
+
+
+.content #intro-box  img{
+  margin-top: 300px;
+  max-width: 500px;
+  max-height: 334px;
+
+  box-shadow: 5px 5px 1px #282828;
+}
+
+
+
+/*mobile first so default should be column*/
+.content #text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 150px;
+  }
+
+.content #text .text-box {
+  display: flex; 
+  flex-direction: column;
+  align-items:center;
+}
+
+.content #text #left-text {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}
+
+.content #text #left-text p{
+  font-size: 25px;
+  background-color: white;
+  font-weight: bolder;
+  outline: 1px solid #282828;
+  border-radius: 0.3em;
+  padding: 60px 60px;
+  width: auto; 
+  max-width: 1200px;
+  line-height: 2;
+
+  box-shadow: 3px 3px 1px #282828;
+}
+
+
+.content #text #right-text {
+
+  gap: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1200px;
+  margin: 0px 0px 200px 0px;
+
+}
+.content #text #right-text .goal{
+  display: flex;
+
+  gap: 120px;
+
+}
+
+
+.content #text #right-text .goal .bubble{
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  font-size: 70px;
+  font-weight: bold;
+  position: relative; 
+  border-radius: .3em;
+  background-color: #DAB1DA; 
+  min-width: 100px;
+  padding: 40px 30px;
+
+  outline: 2px solid #282828;
+
+  box-shadow: 3px 3px 1px #282828;
+
+}
+
+
+
+.content #text #right-text .goal .goal-box {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-weight: bold;
+  background-color: white;
+  outline: 1px solid #282828;
+
+  border-radius: .3em;
+  height: 150px; 
+  width: 1000px;
+  
+  box-shadow: 3px 3px 1px #282828;
+
+}
+
+.content #text #left-text img {
+
+  height: auto;
+  width: auto; 
+  max-width: 500px;
+  max-height: 334px;
+
+  box-shadow: 3px 3px 1px #282828;
+
+
+}
+
+.main-head .bg-img {
+  opacity: 0.9;
+  background-image: url("purple-gradient.jpg");
+  transform: scale(-1, -1);
+  min-height: 100px;
+
+  background-position: 0% 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.main-head .bg-img .title {
+  font-weight: bold;
+  transform: scale(-1, -1);
+  padding: 20px;
+}
+
