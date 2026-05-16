@@ -103,42 +103,40 @@ nav a {
   padding: 20px;
 }
 
-.content .team-box {
-  display:flex;
-  background-color: white;
-  height: 300px;
-  width: 900px;
-  outline: 2px solid #282828;
-  box-shadow: 3px 3px 1px #282828;
 
-
-  
-}
-.content .team-box .text{
-  padding: 20px;
-}
-
-.content .team-box img {
-  float: left;
-  max-height: 300px;
-  max-width: 900px;
-}
 
 .content .contact-div {
   display: flex;
   justify-content: center;
 }
 .content .contact-div form {
+  font-size: 20px;
   display: flex;
-  width: 500px;
-  gap: 30px;
+  width: 1200px;
+  gap: 40px;
   flex-direction: column;
 }
 
 .content .contact-div form div {
-  width: 300px;
+  width: 1200px;
+  height: 100px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: flex-left;
+  gap: 20px;
 }
+
+.content .contact-div form div input{
+  width: 1200px;
+  height: 100px;
+}
+
+
+.content .contact-div label textarea{
+  height: 500px;
+}
+
+
+
 
 

@@ -110,25 +110,30 @@ nav a {
 
 .content .team-box {
   display:flex;
-  background-color: white;
   height: auto;
-  width: 2500px;
-  outline: 2px solid #282828;
-  box-shadow: 3px 3px 1px #282828;
-
-
+  width: 1250px;
+  align-items: center;
+  gap: 50px;
   
 }
+
 .content .team-box .text{
-  font-size: 30px;
+  font-size: 20px;
+  background-color: white;
+  outline: 2px solid #282828;
   padding: 80px;
+  box-shadow: 3px 3px 1px #282828;
+  line-height: 1.5;
 }
 
 .content .team-box img {
   float: left;
   max-height: 300px;
-  max-width: 900px;
+  width: 200px;
+
+  box-shadow: 3px 3px 1px #282828;
 }
+
 
 
 

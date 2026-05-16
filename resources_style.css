@@ -104,18 +104,20 @@ nav a {
 }
 
 .content .resource-box{
+
   display:flex;
   background-color: white;
-  height: 200px;
-  width: 700px;
+  margin: 30px;
+  height: 300px;
+  width: 1000px;
   outline: 2px solid #282828;
   box-shadow: 3px 3px 1px #282828;
 
 
   
 }
-.content .resource-box.text{
-  padding: 20px;
+.content .resource-box .text{
+  padding: 50px;
 }
 
 .content .resource-box img {
