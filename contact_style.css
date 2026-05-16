@@ -110,15 +110,15 @@ nav a {
   justify-content: center;
 }
 .content .contact-div form {
-  font-size: 20px;
+  font-size: 18px;
   display: flex;
-  width: 1200px;
+  width: 900px;
   gap: 40px;
   flex-direction: column;
 }
 
 .content .contact-div form div {
-  width: 1200px;
+  width: 900px;
   height: 100px;
   display: flex;
   flex-direction: column;
@@ -127,7 +127,7 @@ nav a {
 }
 
 .content .contact-div form div input{
-  width: 1200px;
+  width: 900px;
   height: 100px;
 }
 
