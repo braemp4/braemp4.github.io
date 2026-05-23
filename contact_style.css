@@ -40,20 +40,20 @@ body {
     "content"
     "footer"
 }
+
+.main-head .bg-img .right .main-nav {
+
+  transform: scale(-1, -1);
+  padding: 20px;
+}
+
 nav {
   display: flex; 
   gap: 15px;  
   justify-content: right;
 
 
-  background-image: url("white-gradient.jpg");
   opacity: 0.8;
-  min-height: 20px;
-
-  background-position: 0% 32%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 
 }
 /* Can match darker purple for smaller screens*/
@@ -98,9 +98,11 @@ nav a {
 }
 
 .main-head .bg-img .title {
-  font-weight: bold;
   transform: scale(-1, -1);
   padding: 20px;
+  height: 100px;
+  width: 100px;
+  float:right;
 }
 
 
@@ -135,6 +137,7 @@ nav a {
 .content .contact-div label textarea{
   height: 500px;
 }
+
 
 
 
