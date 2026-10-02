@@ -1,116 +1,158 @@
+<!DOCTYPE html>
+
 <html>
-  <head> 
-    <link rel = "stylesheet" href="index_style.css"> 
-    <link rel = "stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+		<link href="style.css" rel="stylesheet"/> 
+	
 
-  </head>
-  <body>
-    <div class = "wrapper">
-      <header class = "main-head"> 
+	</head>
 
+	<body>
+		<nav>
+			<div class="nav_header" id=nav_header>
 
-        <div class="bg-img">
+				<div class="nav_logo">
+					<a href="#">
+						<img src="logo.png" alt="" class='logo'>
+					</a>
 
+				</div>
+				<div class="nav_menu_btn" id="menu-btn"> 
+					<i class="ri-menu-line"></i>
+				</div>
+			</div>
+			<ul class="nav_links" id="nav-links">
+				<li> <a href="#nav_header">HOME</li>
+				<li> <a href="#team_section">OUR TEAM</li>
+				<li> <a href="#contact_form">CONTACT US</li>
+				<li> <a href="#resources_section">RESOURCES</li>
+			</ul>
+		</nav>
+		<header>
+			<div class=header_image>
+				<img src="landing-image.png"/>
+			</div>
+			<div class=header_content id =header_content>
+				<h2>Reimagining Research Through a Culturally Sensitive Lens</h2>
+				<h1>Wright Lab</h1>
+				<p>Welcome to the Wright Lab. This space was created from a passion for understanding the experiences of Black children and youth within educational and mental health systems. Much of our work is inspired by the ways Black youth are often expected to navigate adversity, resilience, identity, and achievement while receiving unequal support within schools and communities.
 
-          <img class="title" src="logo.png">
-            
+				</p>
+			</div>
+		</header>
+		
+		<div class=team_section id=team_section>
+			<header class=team_section_header>
+				<h3> OUR TEAM </h3>
+				<p class="sub_heading"> Members </p>
+			 </header>
 
-          </img> 
+			 <div class=team_container>
+				<div class=team_member>
+					<div class=img>
+						<img src="Deenah-pic.png"/>
+					</div>
+					<h3> Deenah Wright </h3>
+					<p class=title> Founder</p>
+					<p class=bio> Deenah Wright is the founder of the Wright Lab and a Master’s student in Educational Psychology at McGill University. Her work focuses on mental health, resilience, and educational equity, with a particular interest in how systemic and social factors shape the developmental experiences of children and youth. She is currently involved in research examining adultification bias, forced resilience, literacy development, and child mental health interventions within clinical and educational settings. Alongside her research, Deenah has experience supporting children and adolescents through literacy programming, educational interventions, and crisis support initiatives. She is especially interested in culturally informed approaches to psychology and education, particularly as they relate to Black youth and underserved communities. Through the Wright Lab, she hopes to build collaborative research spaces that reimagine traditional approaches to mental health and education while creating opportunities for emerging student researchers. </p>
 
-          <div class="right"> 
+				</div>
 
-            <div class="placeholder top-right"> </div> 
+				<div class=team_member>
+					<div class=img>
+						<img src="Isabel-photo.jpg"/>
+					</div>
+					<h3> Isabel Seleshi </h3>
+					<p class=title> Research Assistant</p>
+					<p class=bio>
+				      Isabel Seleshi is a recent graduate of the University of Ottawa, where she has completed a degree in criminology and social sciences. Her studies and interest center social and crime constructions, systemic inequity and oppression, the management of “risky” populations and the brutality of the carceral complex. Of particular interest are the implications racism, inherent within formal institutions, have on Black communities (women and children especially). Isabel is an active member of the Ottawa Transformative Justice Collective, who through grassroots efforts address social harms non-punitively in the community. She hopes to pursue an interdisciplinary degree in social and criminal justice to critically examine how racism and inequitable social systems disproportionately impact marginalized communities’ lived experiences. </p>
 
-            <nav class = "main-nav">
+				</div>
 
-                <a href="index.html"> Home </a> 
-                <a href="team.html"> Our Team </a>
-                <a href="contact.html"> Contact </a>
-                <a href="resources.html"> Resources </a>
-
-
-            </nav>
-            
-          </div>
-
-        
-
-        </div>
-
-      </header> 
-      
-      
-      <article class="content"> 
-        
-
-        <div id="intro-box"> 
-
-          <div id ="tagline"> <H2> Wright Lab </H2>
-            <p> Reimagining research through a culturally sensitive lens</p>
-          </div> 
-
-
-            <img src="black-girl-studying.jpg"/>
-        </div> 
-
-        
-        <div id="text"> 
-          
-          <div id="left-text" class="text-box">   
-
-
-              
-            <p> 
-              Welcome to the Wright Lab. This space was created from a passion for understanding the experiences of Black children and youth within educational and mental health systems. Much of our work is inspired by the ways Black youth are often expected to navigate adversity, resilience, identity, and achievement while receiving unequal support within schools and communities.
-              </br>
-              </br>
-Beyond research, the lab is also meant to be a collaborative space where students can grow as researchers, explore meaningful questions, and contribute to work that reflects the realities and strengths of the communities we care about. At its core, the Wright Lab is grounded in curiosity, and a commitment to creating research that feels impactful.
-
-            </p>
-          </div>
-
-          <div id="right-text" class="text-box">
-
-            <div class="goal">
-
-              <div class="bubble"> 01 </div>
-
-              <div class="goal-box">  
-                <h3> Black youth mental health and wellbeing </h3>
-              </div>
-
-            </div>
+				<div class=team_member>
+					<div class=img>
+						<img src="Sarah-photo.jpeg"/ id=sarah_photo>
+					</div>
+					<h3> Sarah Francis </h3>
+					<p class=title> Research Assistant</p>
 
 
-            <div class="goal">
+				      <p class="bio"> Sarah Francis is a recent graduate at University of Ottawa, with a Bachelor of Arts in Psychology with a minor in Linguistics. She is currently working as a research assistant and is interested in the intersection of psychology, language, and communication, with attention to psycholinguistics, language development, and youth mental health. Her academic and community involvement reflects her passion for language advocacy, mental health awareness, and supporting underrepresented communities. Sarah hopes to pursue graduate studies in Speech-Language Pathology while continuing research in psycholinguistics, with the long-term goal of improving language access and communication support for children and diverse populations. </p>
 
-              <div class="bubble"> 02 </div>
-
-              <div class="goal-box">   
-                <h3>  Educational equity and school experiences  </h3>
-              </div>
-
-            </div>
+				</div>
 
 
-            <div class="goal">
+				<div class=team_member>
+					<div class=img>
+						<img src="Tola-photo.jpg"/>
+					</div>
+					<h3> Fehintola Sunmola </h3>
+					<p class=title> Research Assistant</p>
+			      <p class="bio"> 
+				Fehintola Sunmola is a psychology student at the University of Ottawa, entering her final year of study. She is currently working as a research assistant and is interested in understanding how early life experiences shape developmental and mental health outcomes in children and youth. Her academic and volunteer work focuses on supporting young people through literacy development and crisis support. Fehintola is particularly interested in culturally informed approaches to mental health and hopes to pursue graduate studies in counselling or developmental psychology, with the long-term goal of contributing to research and interventions that support vulnerable youth.
+			    </p>
+				</div>
 
-              <div class="bubble"> 03 </div>
 
-              <div class="goal-box"> 
-
-                <h3>  Resilience, identity, and culturally informed research </h3>
-              </div>
-
-            </div>
+			 </div>
+		</div>
 
 
+			<div class=resources_section id =resources_section>
+			<header class=resources_section_header>
+				<h3> RESOURCES  </h3>
+				<p class="sub_heading"> </p>
+			 </header>
 
-        </div>
-      </article>
-      <footer class="main-footer"> Wright Lab | page last updated 05/06/06  </footer>
+			 <div class=resources_container id = resources_container>
+				<div class=resource>
+					<div class=img>
+						<img src="microaggressions.png"/>
+					</div>
+					<h3> <a href="microaggressions_and_resilience_black_youth.pdf"> How School Microaggressions Impact Black Youth Resilience After Trauma </a> </h3>
 
-    </div>
-  </body>
+				</div>
+
+			 </div>
+
+
+			 <div class=resources_container id=resources_container>
+				<div class=resource>
+					<div class=img>
+						<img src="racialized_bias.png"/>
+					</div>
+					<h3> <a href='racialized_teacher_bias.pdf'> The Impact of Racialized Teacher Bias on Student Learning </a> </h3>
+
+				</div>
+
+			 </div>
+
+		</div>
+
+		<div class=contact_form id =contact_form>
+			<h2> CONTACT US </h2>
+			<div class=contact_container>
+				<div class=contact_main>
+					<div class=contact_content>
+					<h4> Send us a message </h4>
+					<form action='https://formspree.io/f/mykorboz' method='POST'> </form>
+						<input type='text' name='name' placeholder='Enter Your Name'> 
+
+						<input type='email' name='name' placeholder='Enter Your Email'> 
+
+						<textarea name='message' placeholder="Your Message"> </textarea>
+						<button type='submit' class=contact_btn> Send <i class="fas fa-paper-plane"> </i></button>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<script src="https://unpkg.com/scrollreveal"></script>
+		<script src="main.js"></script>
+	</body>
 
 </html>
