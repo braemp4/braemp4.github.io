@@ -250,12 +250,15 @@ header {
 }
 
 .resources_section_header {
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 
 }
 .resources_section_header h3{
+
+	color: var(--text-dark);	
 	font-size: 25px;
 	font-weight: 700;
 }
